@@ -21,6 +21,7 @@ header #bienvenidos {
 
 footer div a {
   text-decoration: none;
+  list-style: none;
   background-color: #fca5a5;
   color: black;
   font-weight: bold;
@@ -74,6 +75,7 @@ footer div a {
 
 footer div a {
   text-decoration: none;
+  list-style: none;
   background-color: #fca5a5;
   color: black;
   font-weight: bold;
@@ -108,6 +110,6 @@ body {
 /* texto promociones en index "no te pierdas..." */
 .texto-promos a {
   text-decoration: none;
-  color: black;
+  color: #fd7474;
   padding: 0.5vw;
   margin: 0; }
