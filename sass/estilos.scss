@@ -1,8 +1,11 @@
 
 // propiedades carpetas
-@import "header";
-@import "footer";
-@import "mediasqueries";
+@import "../sass/base/header";
+@import "../sass/base/footer";
+@import "../sass/components/mediasqueries";
+@import "../sass/base/mapas";
+@import "../sass/base/extends";
+@import "../sass/base/mixins";
 
 // variables
 
@@ -43,6 +46,19 @@ body{
 
 .texto-promos a{
     text-decoration: none;
-    color: rgb(253, 116, 116);
+    color: black;
+    padding: 0.5vw;
+    margin: 0;
+
 }
+
+.btn{
+            
+            @extend %botones;
+}
+
+
+
+
+
 

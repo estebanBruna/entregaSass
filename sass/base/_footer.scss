@@ -1,0 +1,12 @@
+/* porpiedades footer */
+
+@import "../base/mapas";
+@import"../base/extends";
+
+footer{
+    div{
+        a{
+            @extend %footer
+        }
+    }
+}

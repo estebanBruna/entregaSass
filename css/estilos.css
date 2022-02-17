@@ -11,15 +11,26 @@ header #bienvenidos {
   background-color: #ff9f8e; }
 
 /* porpiedades footer */
+.btn {
+  background-color: #fca5a5;
+  color: black;
+  font-weight: bold;
+  border: black solid 0.2vw;
+  padding: 0.7vw;
+  margin-bottom: 10px; }
+
 footer div a {
   text-decoration: none;
   background-color: #fca5a5;
   color: black;
   font-weight: bold;
   border: black solid 0.2vw;
-  padding: 0.3vw; }
+  border-radius: 45%;
+  padding: 0.7vw;
+  margin-bottom: 10px; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+/* mixins */
+@media screen and (min-width: 320px) and (max-width: 1000px) {
   #texto-lorem {
     display: none; }
   .titulo {
@@ -39,8 +50,39 @@ footer div a {
     width: 60px;
     height: 60px; }
   #form {
-    margin: 0.1em; } }
+    margin: 0.1em; }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .carrusel-item {
+    width: 20%;
+    display: flex;
+    justify-content: center; }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 
+.btn {
+  background-color: #fca5a5;
+  color: black;
+  font-weight: bold;
+  border: black solid 0.2vw;
+  padding: 0.7vw;
+  margin-bottom: 10px; }
+
+footer div a {
+  text-decoration: none;
+  background-color: #fca5a5;
+  color: black;
+  font-weight: bold;
+  border: black solid 0.2vw;
+  border-radius: 45%;
+  padding: 0.7vw;
+  margin-bottom: 10px; }
+
+/* mixins */
 * {
   margin: 0;
   padding: 0; }
@@ -66,4 +108,6 @@ body {
 /* texto promociones en index "no te pierdas..." */
 .texto-promos a {
   text-decoration: none;
-  color: #fd7474; }
+  color: black;
+  padding: 0.5vw;
+  margin: 0; }

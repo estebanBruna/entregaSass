@@ -1,5 +1,8 @@
 $medida-celular: 320px;
-$medida-tablet: 768px;
+$medida-tablet: 1000px;
+
+@import "../base/mixins";
+
 
 
 @media  screen and (min-width: $medida-celular) and (max-width: $medida-tablet) {
@@ -39,5 +42,19 @@ $medida-tablet: 768px;
     #form{
        margin: 0.1em;
        
+   }
+
+   .cards{
+       @include display;
+   }
+
+   .carrusel-item{
+       width: 20%;
+       display: flex;
+       justify-content: center;
+   }
+
+   .galeria{
+       @include display;
    }
 }

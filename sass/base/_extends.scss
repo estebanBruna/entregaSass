@@ -1,0 +1,19 @@
+%botones {
+    background-color: map-get($map: $botones-rosa, $key:background-color );
+            color: black;
+            font-weight: bold;
+            border: black solid 0.2vw;
+            padding: 0.7vw;
+            margin-bottom: 10px;
+}
+
+%footer{
+            text-decoration: none;
+            background-color: map-get($map: $botones-rosa, $key:background-color );
+            color: black;
+            font-weight: bold;
+            border: black solid 0.2vw;
+            border-radius: 45%;
+            padding: 0.7vw;
+            margin-bottom: 10px;
+}
