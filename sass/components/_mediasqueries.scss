@@ -1,5 +1,6 @@
 $medida-celular: 320px;
 $medida-tablet: 1000px;
+$medida-desktop: 1100px;
 
 @import "../base/mixins";
 
@@ -57,4 +58,22 @@ $medida-tablet: 1000px;
    .galeria{
        @include display;
    }
+}
+
+@media screen and (min-width: $medida-desktop) {
+    .img-agrandar:hover {
+        animation-name: agrandarF;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-timing-function:step-start;
+    }
+    
+    @keyframes agrandarF{
+        from{
+            transform: scale(1.0);
+        }
+        to{
+            transform: scale(1.2);
+        }
+    }
 }

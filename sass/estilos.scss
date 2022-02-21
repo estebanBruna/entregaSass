@@ -24,23 +24,6 @@ body{
 
 }
 
-/*porpiedades imagenes que se agrandan */
-
-.img-agrandar:hover {
-    animation-name: agrandarF;
-    animation-iteration-count: infinite;
-    animation-duration: 1s;
-    animation-timing-function:step-start;
-}
-
-@keyframes agrandarF{
-    from{
-        transform: scale(1.0);
-    }
-    to{
-        transform: scale(1.2);
-    }
-}
 
 /* texto promociones en index "no te pierdas..." */
 
