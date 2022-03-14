@@ -1,0 +1,23 @@
+.main-nosotros{
+    .section-creador{
+        display: flex;
+        flex-direction: row;
+        img{
+            width: $medida-imagenes-emb;
+                height: $medida-imagenes-emb + 6vw;
+                margin: 5vw 5vw;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                border-radius: 3%;
+                border: outset 0.3vw grey;
+        }
+
+        .texto-creador{
+                font-size: 1.5vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0.5vw 3vw;
+                line-height: 3vw;
+        }
+    }
+}

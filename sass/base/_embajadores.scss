@@ -1,0 +1,36 @@
+$medida-imagenes-emb: 30vw;
+
+
+
+
+.main-embajadores{
+    .section-embajadores{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+         .div-emb{
+            margin-top: 7vw;
+            display: flex;
+            flex-direction: row;
+            img{
+                width: $medida-imagenes-emb;
+                height: $medida-imagenes-emb + 6vw;
+                margin: 5vw 5vw;
+                box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+                
+            }
+
+            .textos-emb{
+                width: 70vw;
+                font-size: 2vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin: 0.5vw 3vw;
+            }
+            
+        }
+    }
+
+}
+
